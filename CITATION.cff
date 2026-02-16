@@ -1,0 +1,8 @@
+@inproceedings{khorasanizadeh1404innetwork,
+  title     = {محاسبه تقریبی عملیات تقسیم در داخل شبکه به کمک زبان برنامه‌نویسی پی‌فور},
+  author    = {Khorasanizadeh, Danial and Farahnakiyan, Mohammad Hossein and Dolati, Mehdi and Jalili, Rasool},
+  booktitle = {Proceedings of the 7th National Conference on Informatics of Iran},
+  year      = {1404},
+  address   = {Tehran, Iran},
+  organization = {IPM}
+}
