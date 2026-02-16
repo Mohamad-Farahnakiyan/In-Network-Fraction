@@ -49,22 +49,36 @@ The number of Newton iterations can be adjusted to control the trade-off between
 
 The algorithm is implemented in **P4** and evaluated on **BMv2 (simple-switch)**.
 
-Reproducibility scripts and execution details are provided in the included submodule.
+Reproducibility scripts and experiment execution details are provided in the included submodule. The submodule contains the full experimental setup, scripts, and configuration required to reproduce the results.
 
 ---
 
 ## Experimental Setup
 
-- BMv2 simple-switch  
-- Ubuntu 24.04 (Virtual Machine)  
-- Intel Core i7-13620H  
-- 16 GB RAM  
+### System Configuration
 
-Fixed-point configurations evaluated:
-- 16-bit integer part  
-- 8 / 16 / 24 / 32 fractional bits  
+- **VM**: Based on p4-guide VM (2025-Oct-01 version)
+- **Operating System**: Ubuntu 24.04
+- **Memory**: 8 GB
+- **CPU**: 6 cores, 13th Gen Intel® Core™ i7-13620H
+
+### Software Environment
+
+- **Python**: Version 3.12.3
+- **p4c-bm2-ss**: Version 1.2.5.8 (SHA: 2265f8045, BUILD: Release)
+- **simple_switch**: Version 1.15.0-68f4a978
+- **scapy**: Version 2.5.0
 
 ---
+
+## Running Experiments
+
+To run each experiment, execute the corresponding bash script located in the `test_helpers` directory inside the submodule.
+
+```bash
+cd <submodule_directory>/test_helpers
+./<experiment_script>.sh
+```
 
 ## Results (Key Metrics)
 
