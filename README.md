@@ -27,14 +27,23 @@ The algorithm is implemented in P4 and evaluated using the BMv2 behavioral model
 
 The division is performed in four steps:
 
-1. **Normalization** of the divisor  
-   b = 2^k * n
+1. **Normalization of the divisor**
 
-2. **Linear initial approximation**  
-   1/n ≈ 1.5 − 0.5n
+$$
+b = 2^k \cdot n
+$$
 
-3. **Newton–Raphson refinement**  
-   x_(t+1) = x_t (2 − n x_t)
+2. **Linear initial approximation**
+
+$$
+\frac{1}{n} \approx 1.5 - 0.5n
+$$
+
+3. **Newton–Raphson refinement**
+
+$$
+x_{t+1} = x_t \left(2 - n x_t\right)
+$$
 
 4. **Denormalization and final multiplication**
 
