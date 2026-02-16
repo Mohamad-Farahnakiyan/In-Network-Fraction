@@ -2,7 +2,8 @@
 
 This repository contains the implementation and materials of the paper:
 
-**"محاسبه تقریبی عملیات تقسیم در داخل شبکه به کمک زبان برنامه‌نویسی پی‌فور"** 
+**"محاسبه تقریبی عملیات تقسیم در داخل شبکه به کمک زبان برنامه‌نویسی پی‌فور"**
+
 Accepted at the **7th National Conference on Informatics of Iran (IPM, Tehran)**, 1404.
 
 ---
